@@ -8,7 +8,7 @@
 
 # Import Libraries
 # ================================================================
-from classes import *
+from game_functions import run_menu
 
 # Future Functionality
 # ================================================================
@@ -22,14 +22,7 @@ from classes import *
 
 def main():
     """Main function that runs the program."""
-    mine_runner = Game()
-    menu = Menu()
-    menu = menu.display_menu()
-    mine_runner.play()
-    
-    return 0
-
+    run_menu()
 
 if __name__ == "__main__":
     main()
-
