@@ -1,1 +1,5 @@
 The second installation of a game I made back in high school for my junior year semester project. This new version strives to add the functionality I did not have the time to implement or didn't know how to implement.
+
+Requirements:
+
+-> Pillow
